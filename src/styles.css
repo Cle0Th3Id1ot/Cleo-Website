@@ -2,17 +2,40 @@
     text-align: center;
     align-items: center;
     align-content: center;
+    background-color: #e3b3f2;
+    font-family: 'Lucida Sans';
 }
 table{
     margin: 5%;
     align-self: center;
 
 }
+
 #image-meow {
-    width: 25%;
-    height: 25%;
+    width: 150px;
+    height: 150px;
 }
+
 body{
     display: flex;
     flex-direction: column;
 }
+
+.title {
+    background-color: #5BCEFA;
+    width: fit-content;
+    height: fit-content;
+}
+
+.title h1 {
+    margin-bottom: 5px;
+    font-size: 64px;
+    max-width: 10000px;
+}
+
+.title h2 {
+    margin-top: 0px;
+    font-size: 32px;
+    max-width: 10000px;
+}
+
