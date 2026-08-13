@@ -2,18 +2,34 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: #e3b3f2;
+    background-color: #8e6cc9;
     font-family: 'Lucida Sans';
+    box-sizing: border-box;
 }
-table{
-    margin: 5%;
-    align-self: center;
 
+table{
+    margin: 10px;
+    align-self: center;
+    column-width: 250px;
+}
+
+th, td {
+    background-color: rgba(212, 189, 252, .5);
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
 }
 
 #image-meow {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+}
+
+.background {
+    background-image:url(images/quad-cities.jpg);
+    background-blend-mode: color;
+    padding: 50px 100vw;
 }
 
 body{
@@ -22,20 +38,43 @@ body{
 }
 
 .title {
-    background-color: #5BCEFA;
     width: fit-content;
     height: fit-content;
+    margin: 0px;
+}
+
+div .title {
+    width: 100vw;
 }
 
 .title h1 {
-    margin-bottom: 5px;
-    font-size: 64px;
-    max-width: 10000px;
+font-size: 64px;
+padding: 5px;
+background-color:rgba(91,206,250, 1);
+height: 100px;
 }
 
 .title h2 {
-    margin-top: 0px;
-    font-size: 32px;
-    max-width: 10000px;
+font-size: 32px;
+padding-bottom: 20px;
+background-color: #e3b3f2;
+text-align: center;
+height: 100px;
 }
 
+#catgifmeow1 {
+    position: relative 600px;
+    
+}
+
+.empty-pink-part-UwU {
+    background-color: #e3b3f2;
+    height: 100px;
+    width: 100vw;
+}
+
+.empty-blue-part-OwO {
+    background-color: rgba(91,206,250, 1);
+    height: 100px;
+    width: 100vw;
+}
