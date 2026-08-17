@@ -10,7 +10,6 @@
 table{
     margin: 10px;
     align-self: center;
-    column-width: 250px;
 }
 
 th, td {
