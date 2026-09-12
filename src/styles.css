@@ -28,7 +28,7 @@ th, td {
 .background {
     background-image:url(images/quad-cities.jpg);
     background-blend-mode: color;
-    padding: 50px 100vw;
+    padding: 50px 100%;
 }
 
 body{
@@ -61,11 +61,6 @@ text-align: center;
 height: 100px;
 }
 
-#catgifmeow1 {
-    position: relative 600px;
-    
-}
-
 .empty-pink-part-UwU {
     background-color: #e3b3f2;
     height: 100px;
@@ -77,9 +72,3 @@ height: 100px;
     height: 100px;
     width: 100vw;
 }
-
-iframe.top5songmeow
-    {
-        height: 100%;
-        width: 100vw;
-    }
